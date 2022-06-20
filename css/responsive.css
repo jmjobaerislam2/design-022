@@ -1,0 +1,402 @@
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+   body {
+     overflow-x: hidden;
+   }
+.this-for-moblie ul li {
+    list-style: none;
+    margin-left: 10px;
+    display: block;
+}
+.this-for-moblie ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+}
+.header-top span {
+    display: none;
+}
+.top-flag {
+    position: relative;
+    text-align: center;
+    padding: 4px 0;
+}
+
+section.about-service {
+    background-color: #fbfbfb;
+    padding: 115px 0;
+    overflow-x: hidden;
+}
+.this-for-moblie ul {
+    margin: 0;
+    padding: 0;
+    background-color: #131412;
+    width: 190px;
+    color: #1c160a;
+    height: 217px;
+    z-index: 999;
+}
+.img-overly::after {
+    content: "";
+    position: absolute;
+    background: url(../img/banner-img.jpg);
+    height: 173vh;
+    width: 100%;
+    left: 0;
+}
+section.this-banner {
+    /* position: relative; */
+    /* background: url(../img/banner-img.jpg); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 409px;
+    position: relative;
+    text-align: center;
+}
+.banner-button {
+    /* margin-top: 38px; */
+    display: flex;
+    margin-left: -1px;
+}
+.banner-content h1 {
+    font-size: 50px;
+    line-height: 45px;
+    font-family: fantasy;
+}
+.banner-content {
+    position: absolute;
+    top: 75px;
+    text-align: center;
+}
+.help-text {
+    text-align: center;
+}
+.service-time {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 0px 62px;
+    display: none;
+}
+.about-support {
+    background: url(../img/suport.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.support-button {
+    position: absolute;
+    z-index: 99;
+    right: 29%;
+    bottom: 14px;
+}
+header.this-for-moblie {
+    display: block;
+    padding: 24px 31px;
+    /*position: fixed;*/
+    z-index: 99;
+    background-color: white;
+    width: 100%;
+    box-shadow: 14px 0px 7px 1px #e1d2d2;
+}
+header.menuarea {
+    padding: 13px;
+    display: none;
+}
+.project-img {
+    height: 279px;
+    width: 100%;
+    z-index: 99;
+    overflow: hidden;
+}
+.play-button {
+    position: absolute;
+    left: 35%;
+    top: 39%;
+    height: 100px;
+    width: 100px;
+    background-color: #2354cd;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-radius: 50%;
+    box-shadow: -1px 1px 2px 7px #f7e2e2;
+}
+.service-head h2 {
+    font-size: 38px;
+}
+
+.toggolebtn {
+    height: 29px;
+    width: 64px;
+    background-color: #fdf9f7;
+    position: relative;
+    left: 84%;
+    top: -31px;
+}
+.toggol-search {
+    text-align: right;
+    border: 1px solid blue;
+    height: 33px;
+    width: 30px;
+    position: absolute;
+    left: 41px;
+    top: -6px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 50%;
+}
+.about-service {
+    display: none;
+}
+.mobile-slider {
+    display: block;
+    overflow-x: hidden;
+}
+.slick-slide img {
+    display: block;
+    width: 77%;
+    height: 24%;
+}
+.slide22 {
+
+}
+.slide22 img {
+    
+}
+.top-flag .flag-img {
+    position: absolute;
+    visibility: hidden;
+    z-index: 999;
+    box-shadow: 0 1px 1px 7px rgb(233 97 97 / 36%);
+    margin-top: 20px;
+}
+
+.toggolebtn span {
+    height: 4px;
+    width: 29px;
+    background-color: black;
+    position: absolute;
+}
+.toggolebtn span::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 29px;
+    background-color: black;
+    top: 7px;
+}
+.toggolebtn span::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 29px;
+    background-color: black;
+    top: 14px;
+}
+
+
+
+
+.video-img {
+    position: relative;
+    height: auto;
+    width: 455px;
+}
+.video-img img {
+    height: auto;
+    width: 100%;
+}
+.video-area {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+@keyframes jobaer {
+    to {
+        width: 150px;
+        background-color: rgba(220, 55, 66, 1.0);
+    }
+}
+
+.team-member img {
+    width: 100%;
+    height: 100%;
+}
+
+.progres-ber ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 37px;
+    height: 11px;
+    width: 91%;
+    background-color: #4d544e;
+    border-radius: 10px;
+}
+.progres-ber ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 37px;
+    height: 11px;
+    width: 8px;
+    background-color: #677067;
+    animation-name: jubaer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 3;
+    border-radius: 19px;
+}
+.service-head h2::after {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 12px;
+    background: url(../img/after.png);
+    top: 55%;
+    left: 47%;
+}
+.service-head h1::after {
+    content: "";
+    position: absolute;
+    height: 11px;
+    width: 46px;
+    background: url(../img/after.png);
+    left: 50%;
+    margin: 0 auto;
+    display: block;
+    margin: 1px -19px;
+    top: 61px;
+}
+.projent-type li {
+    display: inline-block;
+    padding: 4px 0px 0px 0px;
+    text-align: center;
+    margin: 0 19px;
+    width: auto;
+    transition: 0.4s;
+}
+#borderx {
+    border-radius: 20px;
+    height: 35px;
+    width: 52px;
+    border: none;
+}
+.service-head h1 {
+    font-size: 40px;
+}
+
+.social-communication {
+    margin-top: 28px;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon-information ul {
+    position: relative;
+    left: -27%;
+    top: 21px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.progress-ber {
+    text-align: center;
+}
+.about-counter {
+    background: url(../img/skill-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    padding: 95px 0 68px;
+}
+.progres-ber p {
+    text-align: center;
+    font-size: 14px;
+    font-family: math;
+    position: relative;
+    top: 16px;
+}
+.client-item {
+    display: block;
+}
+.client-item {
+    display: block;
+}
+.cleint-logo {
+    height: 100px;
+    width: 100%;
+    background-color: #fdfdfd;
+    margin: 21px 0;
+    padding: 35px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 1px 2px 1px #ede1e1;
+}
+
+.touch-form form textarea {
+    width: 100%;
+    border: 1px solid #705c5c;
+    padding: 8px 16px;
+    background-color: #FAFBFF;
+    margin-top: 30px;
+}
+.touch-form form input {
+    width: 100%;
+    padding: 11px 15px;
+    margin: -3px 0px 10px 1px;
+    border: 1px solid #dbc7c7;
+    background: #FAFBFF;
+}
+.touch-form form lable {
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+    font-family: initial;
+}
+.tuch-button button {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #3939ff;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 300ms;
+    letter-spacing: 2px;
+    background: white;
+}
+.touch-patition {
+    position: relative;
+    top: 56%;
+    transform: rotate(90deg);
+    left: 29%;
+}
+
+
+
+
+
+
+.footer-end-social-icon {
+    text-align: center;
+}
+.footer-end p {
+    text-align: center;
+}
+
+}
+
+
